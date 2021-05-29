@@ -34,6 +34,9 @@ public class CybertekGroups {
         }else{
             System.out.println("Akrem is Not in grp2");
         }
+        // remove some members from grp1
+        grp1.removeMember("Nancy");
+        System.out.println("grp1 after removing = " + grp1);
 
         }
 
