@@ -6,6 +6,7 @@ public class BankAccountTest {
         BankAccount husband = new BankAccount();
         husband.user = "Fady";
 
+        //husband.balance = 500; // we can do this if the variable is not static
         husband.showBalance();
         husband.spend(300);
         husband.showBalance();

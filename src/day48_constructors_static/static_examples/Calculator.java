@@ -7,6 +7,7 @@ public class Calculator {
     }
     // instance/ object method
     public void multiply(int num1, int num2){
+
         System.out.println(num1*num2);
     }
 }

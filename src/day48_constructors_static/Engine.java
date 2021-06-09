@@ -7,6 +7,7 @@ public class Engine {
     }
 
     public Engine(int cylinder) {
+
         this.cylinder = cylinder;
     }
 
@@ -17,10 +18,12 @@ public class Engine {
     }
 
     public int getCylinder() {
+
         return cylinder;
     }
 
     public void setCylinder(int cylinder) {
+
         this.cylinder = cylinder;
     }
 }
