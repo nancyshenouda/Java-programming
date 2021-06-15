@@ -16,12 +16,32 @@ public class CarObjects {
         System.out.println("ec1 price = " + ec1.getPrice());
         System.out.println("ec1 year = " + ec1.getYear());
         System.out.println("ec1 range = " + ec1.getRange());
-        System.out.println("ec1 count = " + ElectricCar.getCount());
+        System.out.println("ec1 count = " + ElectricCar.getCount()); // we will get 1
 
         if(ec1.getPrice() > 10000){
             System.out.println(ec1.getMake() + " - " + ec1.getModel() + " is out of budget.");
         }else{
             System.out.println("purchasing " + ec1.toString());
         }
+        ElectricCar ec2 = new ElectricCar("Tesla","CyberTruck", 59900, 2022, 300);
+        System.out.println(ec2.toString());
+        System.out.println("ec2 count = " + ElectricCar.getCount());// static methods can be called  by className
+        System.out.println(ec2.getCount()); // we can access static method by object name as well
+
+        Roadster roadster = new Roadster("Tesla", "Roadster",  200000, 2022, 620);
+        System.out.println(roadster.toString());
+        System.out.println("roadster count = " + roadster.getCount());
+
+        ModelX modelX = new ModelX("Tesla", "Model X", 89000, 2021,360 );
+        System.out.println(modelX.toString());
+        System.out.println("Model X count = " + modelX.getCount());// calling a static method
+
+        modelX.drive(10);
+        System.out.println("Having lunch...");
+        modelX.drive(10);
+        System.out.println("Remaining range = "+ modelX.getRange());
+
+
+
     }
 }

@@ -8,29 +8,35 @@ public class Car {
 
     // setter method for model
     public void setModel(String carModel){
+
         model = carModel;
     }
 
     // getter method for model
     public String getModel(){
+
         return model;
     }
 
     // setter method for year
     public void setYear(int year){
+
         this.year = year;
     }
     //getter method for year
     public int getYear(){
+
         return year;
     }
     // setter method for mileage
 
     public void setMileage(int mileage){
-        this.mileage=mileage; // this.variable name means we are referring to the encapsulated object
+        this.mileage=mileage;
+        // this.variable name means we are referring to the instance variable if it has the same name as the method param name
     }
     //getter method for mileage
     public int getMileage(){
+
         return mileage;
     }
 

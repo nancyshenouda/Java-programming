@@ -15,4 +15,10 @@ public class Mobile extends Phone{
         use();
         System.out.println(" and sending a text message");
     }
+
+    public void call(){
+        use();
+        System.out.println(" and calling on mobile phone");
+    }
+
 }

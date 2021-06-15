@@ -6,7 +6,15 @@ public class Employee {
         String name;
         String jobTitle;
 
-        //instance/object method
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                '}';
+    }
+
+    //instance/object method
         public void work() {
             System.out.println(name +" works as " + jobTitle);
         }

@@ -4,11 +4,11 @@ public class Dealership {
     public static void main(String[] args) {
 
         Car car1 = new Car();
-        //car1.model = "Nissan Altima";
+        //car1.model = "Nissan Ultima";
         //System.out.println(car1.model);// cannot access the variable model as it is private
 
-        car1.setModel("Nissan Altima");
-        System.out.println("car 1 model = " + car1.getModel());// now we can access the model from inside the method
+        car1.setModel("Nissan Ultima");
+        System.out.println("car 1 model = " + car1.getModel());// now we can access the model from inside the getter method
 
         car1.setYear(2020);
         System.out.println("car1 year = " + car1.getYear());
@@ -27,7 +27,7 @@ public class Dealership {
 
         car2.setMileage(21000);
         System.out.println("car 2 mileage = " + car2.getMileage());
-        System.out.println(car2); // it is the same result as .toString
+        System.out.println(car2); // it is the same result as .toString();
         System.out.println(car2.toString());
     }
 
