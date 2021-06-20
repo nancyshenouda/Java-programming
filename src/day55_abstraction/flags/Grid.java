@@ -1,4 +1,4 @@
-package day55_abstraction.exercise_example.flags;
+package day55_abstraction.flags;
 
 import javax.swing.*;
 import java.awt.*;
