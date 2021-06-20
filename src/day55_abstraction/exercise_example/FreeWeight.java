@@ -1,6 +1,6 @@
 package day55_abstraction.exercise_example;
 
-public class FreeWeight extends Lifting{
+public class FreeWeight extends Lifting {
     @Override
     public void perform() {
 
