@@ -9,7 +9,7 @@ public class Group {
 
 
     public Group(String name){
-        this.groupName=name;
+        groupName=name;
 
     }
 
