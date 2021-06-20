@@ -15,15 +15,16 @@ public class StaticMethods {
         System.out.println("another static method");
         displayMessage("wooden spoon");
     }
-    //StaticMethods.instanceMethod(); > no
-    //StaticMethods stm = new StaticMethods();
-    //stm.instanceMethod();
+
     public void instanceMethod() {
         System.out.println("instanceMethod");
         System.out.println("num = " + num); // instance method can access the instance variable
         System.out.println("count = " + count); // instance method can access the static variable
         displayMessage("hello from instance method");
     }
+    //StaticMethods.instanceMethod(); //> no it needs an object to call it.
+    //StaticMethods stm = new StaticMethods();
+    //stm.instanceMethod();
 
 }
 
