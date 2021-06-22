@@ -9,5 +9,9 @@ public class GreetingActions {
         Greeting gt = new MountainLanguage();
         gt.hi();
         gt.bye();
+
+        Japanese jp = new Japanese();
+        jp.hi();
+        jp.bye();
     }
 }
