@@ -1,4 +1,6 @@
-package day56_abstraction;
+package day56_abstraction.greeting;
+
+import day56_abstraction.greeting.Greeting;
 
 public class MountainLanguage implements Greeting {
     @Override

@@ -1,6 +1,8 @@
-package day56_abstraction;
+package day56_abstraction.greeting;
 
-public class Japanese implements Greeting{
+import day56_abstraction.greeting.Greeting;
+
+public class Japanese implements Greeting {
     @Override
     public void hi() {
         System.out.println("こんにちは");
