@@ -26,4 +26,5 @@ public abstract class SocialMedia {
     public abstract void post(String body);
 
     public abstract void notifications();
+
 }
