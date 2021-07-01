@@ -1,4 +1,4 @@
-package day57_abstraction_polymorphism.polymorphism;
+package day57_abstraction_polymorphism.polymorphism.animals;
 
 public class Dog extends Animal{
     @Override

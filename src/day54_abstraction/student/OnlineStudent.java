@@ -1,4 +1,4 @@
-package day54_abstraction;
+package day54_abstraction.student;
 
 
 public class OnlineStudent extends Student{
@@ -9,7 +9,7 @@ public class OnlineStudent extends Student{
         }
 
         //public abstract void askQuestions(); // error we cannot create abstract methods in normal classes.
-    // The class has to be abstract to have abstrat methods
+    // The class has to be abstract to have abstract methods
     }
 
 

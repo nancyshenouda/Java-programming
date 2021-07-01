@@ -1,7 +1,7 @@
-package day54_abstraction;
+package day54_abstraction.student;
 
 /**
- * we add abstract keyword to a class to make it ab abstract class
+ * we add abstract keyword to a class to make it an abstract class
  * We cannot create objects from Student Class meaning:
  * Student student = new Student(); ---> will show error
  */

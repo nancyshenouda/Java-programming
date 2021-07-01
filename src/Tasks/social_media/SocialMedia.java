@@ -13,6 +13,8 @@ The Social Media will also have the following fields:
  */
 
 
+import OfficeHours.Practice_06_28_2021.FacebookUsers;
+
 public abstract class SocialMedia {
 
      String personalUrl;
@@ -30,4 +32,7 @@ public void notifications(){
     System.out.println("notifications on the post");
 }
 
+    public abstract boolean getAllPosts();
+
+    public abstract void sendFriendRequest(FacebookUsers userTwo);
 }

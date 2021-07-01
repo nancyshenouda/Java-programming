@@ -1,4 +1,4 @@
-package day57_abstraction_polymorphism.polymorphism;
+package day57_abstraction_polymorphism.polymorphism.animals;
 
 import java.util.ArrayList;
 import java.util.List;
