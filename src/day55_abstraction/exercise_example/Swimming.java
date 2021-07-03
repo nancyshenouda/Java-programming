@@ -13,4 +13,7 @@ public class Swimming extends Exercise {
 
         return minutes*30;
     }
+
+
+
 }

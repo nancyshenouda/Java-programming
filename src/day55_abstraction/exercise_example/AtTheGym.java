@@ -6,7 +6,8 @@ public class AtTheGym {
         //Exercise exercise = new Exercise(); // cannot create object/instantiate abstract class
         Exercise exercise1 = new Running();
         Exercise exercise2 = new Swimming();
-        Exercise exercise3 = new FreeWeight(); // we can have a variable type of an abstract class and the object can be any Sub class
+        Exercise exercise3 = new FreeWeight();
+        // we can have a variable type of an abstract class and the object can be any Sub class
 
         Running running = new Running();
         Swimming swimming = new Swimming();
