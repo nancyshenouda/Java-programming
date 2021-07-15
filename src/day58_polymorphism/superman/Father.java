@@ -1,4 +1,4 @@
-package day58_polymorphism;
+package day58_polymorphism.superman;
 
 public class Father {
     public void raiseKids(){

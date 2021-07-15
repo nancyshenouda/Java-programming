@@ -1,6 +1,6 @@
-package day58_polymorphism;
+package day58_polymorphism.superman;
 
-public class SuperMan extends Father implements Worker{
+public class SuperMan extends Father implements Worker {
     @Override
     public void work(String job) {
         System.out.println("SuperMan is working as " + job);
