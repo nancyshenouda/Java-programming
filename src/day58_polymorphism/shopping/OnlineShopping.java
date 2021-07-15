@@ -1,4 +1,4 @@
-package day58_polymorphism;
+package day58_polymorphism.shopping;
 
 public abstract class OnlineShopping {
 

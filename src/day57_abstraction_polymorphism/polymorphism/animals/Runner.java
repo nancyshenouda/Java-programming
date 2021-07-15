@@ -6,14 +6,16 @@ import java.util.List;
 public class Runner {
     public static void main(String[] args) {
 
-        // the coming is regula object instantiate
+        // the coming is regular object instantiate
         Animal animal = new Animal();
         animal.makeNoise();
 
+        System.out.println("----------------");
 
         // the coming is polymorphism
         Animal dog = new Dog();
         dog.makeNoise();
+        System.out.println("----------------");
 
         Animal dog2 = new Animal();
         dog2.makeNoise();

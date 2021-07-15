@@ -1,6 +1,6 @@
-package day58_polymorphism;
+package day58_polymorphism.shopping;
 
-public class Amazon extends OnlineShopping implements Prime{
+public class Amazon extends OnlineShopping implements Prime {
 
     @Override
     public void buy() {
