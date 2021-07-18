@@ -19,7 +19,7 @@ public class InstanceOf {
         }else if(shape instanceof Square){
             System.out.println("It is a Square object");
         }
-
+        System.out.println("---------------------");
         //2- java reflection API
         System.out.println(shape.getClass().getSimpleName());
         System.out.println(shape.getClass().getName());
@@ -30,7 +30,7 @@ public class InstanceOf {
         }
 
         System.out.println(shape.getClass().getDeclaredMethods().length);// return the number of methods in Circle class
-        //System.out.println(shape.getClass().getDeclaredFields().getClass().getName());
+        System.out.println(shape.getClass().getDeclaredFields().getClass().getName());
 
 
 

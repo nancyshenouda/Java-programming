@@ -12,13 +12,16 @@ public class Runner {
         //polymorphic way:
         WebElement link2 = new Link();
         link2.click();
+        ((Link)link2).getLinkHref();
         String txt = link.getText();
         System.out.println("txt = " + txt);
+        link2.sendKeys("Selenium");
 
         WebElement username = new InputField();
         username.sendKeys("nancy shenouda");
         //System.out.println("username.getText() = " + username.getText());
         //username.click();
+        System.out.println("-----------------");
         WebElementUtil.clickElement(link);
         WebElementUtil.clickElement(username);
 
