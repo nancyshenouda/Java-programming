@@ -5,9 +5,9 @@ public class ElementaryStudentTest {
 
         ElementaryStudent student = new ElementaryStudent();
         student.setName("Nancy");
-        //System.out.println(student.getName());
+        System.out.println(student.getName());
         student.setAge(15);
-        student.toString();
+        System.out.println(student.toString());
 
     }
 }
