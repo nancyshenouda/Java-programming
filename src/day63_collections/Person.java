@@ -1,9 +1,9 @@
 package day63_collections;
 
 public class Person {
-    int age;
-    String name;
 
+    String name;
+    int age;
     public Person(String name, int age){
         this.name = name;
         this.age = age;
@@ -12,8 +12,8 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
